@@ -2,7 +2,7 @@
 
 Challenge-Quest is a Hackathon Challenge and Communication platform for communities to engage with each other and solve real-world problems. CQ allows organizations to sign up and create new challenges in order to engage with their members and local ecosystem. Members can sign up and create or join teams which will allow them to participate in developing new solutions for outstanding issues. CQ provides many different categories of challenges and levels of difficulty in order to reach problem-solvers of all kinds.
 
-[ChallengeQ-FrontEnd](https://github.com/Technopathic/ChallengeQ-FrontEnd)
+[ChallengeQ-BackEnd](https://github.com/Technopathic/ChallengeQ-BackEnd)
 
 [DEMO](http://challenges.innovationmesh.com)
 
