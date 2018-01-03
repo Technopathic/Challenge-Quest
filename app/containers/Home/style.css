@@ -1,0 +1,84 @@
+/* Home Styles */
+
+.container {
+  display:flex;
+  flex-direction:column;
+  min-height:100vh;
+}
+
+.mainContainer {
+  display:flex;
+  flex-direction:column;
+  background:#f9f9f9;
+  min-height:100vh;
+}
+
+.contentContainer {
+  display:flex;
+  flex-direction:row;
+  justify-content:space-between;
+  width:100%;
+  max-width:1100px;
+  margin:0 auto;
+  margin-top:20px;
+}
+
+.categoryContainer {
+  display:flex;
+  flex-direction:column;
+  width:20%;
+}
+
+.challengeFeed {
+  display:flex;
+  flex-direction:column;
+  flex-grow:1;
+  max-width:60%;
+  padding-left:2%;
+  padding-right:2%;
+}
+
+.sideBar {
+  width:20%;
+}
+
+
+.categoryHeader {
+  display:flex;
+  flex-direction:row;
+  justify-content:space-between;
+  color:#555555;
+}
+
+.searchInput {
+  border:1px solid #E8E8E8;
+  border-radius:5px;
+  padding-top:5px;
+  padding-bottom:5px;
+  outline:none;
+  color:#222222;
+  font-size:1.05em;
+  width:100%;
+}
+
+.newsLetterBlock {
+  margin-top:10px;
+  display:flex;
+  flex-direction:column;
+  background:#FFFFFF;
+  border:1px solid #e8e8e8;
+  padding:5px;
+}
+
+.newsLetterImage {
+  height:200px;
+  background:#EEEEEE;
+}
+
+.newsLetterInput {
+  width:90%;
+  margin:0 auto;
+  padding:2%;
+  outline:none;
+  border:1px solid #DDDDDD;
+}

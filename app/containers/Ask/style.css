@@ -1,0 +1,48 @@
+/* Challenges Styles */
+
+.container {
+  display:flex;
+  flex-direction:column;
+  min-height:100vh;
+}
+
+.questionContainer {
+
+}
+
+.questionBlock {
+  min-height:100px;
+  display:flex;
+  flex-direction:column;
+  padding:10px;
+  border-top:1px solid #E8E8E8;
+  text-decoration:none;
+}
+
+.questionHeader {
+  display:flex;
+  flex-direction:row;
+  align-items:center;
+  margin-left:10px;
+}
+
+.questionAvatarImg {
+  height:40px;
+  width:40px;
+  border-radius:50%;
+}
+
+.questionName {
+  margin-left:10px;
+  font-family:'Lato';
+  font-weight:600;
+  color:#555555;
+  font-size:0.9em;
+}
+
+.questionWho {
+  margin-left:10px;
+  font-size:0.9em;
+  font-family:'Lato';
+  color:#999999;
+}

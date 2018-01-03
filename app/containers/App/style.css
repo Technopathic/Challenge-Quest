@@ -1,0 +1,56 @@
+/* App Styles */
+
+.container {
+  display:flex;
+  flex-direction:column;
+  min-height:100vh;
+}
+
+.profileContainer {
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+  padding:10px;
+}
+
+.profileDialogUser {
+  font-family:'Lato';
+  font-size:0.9em;
+  font-weight:600;
+  color:#888888;
+  margin-bottom:5px;
+}
+
+.profileDialogName {
+  font-family:'Lato';
+  font-size:2em;
+  color:#333333;
+  font-variant:small-caps;
+  margin-bottom:10px;
+  border:none;
+  outline:none;
+  text-align:center;
+}
+
+.profileDialogButtons {
+  border-top:1px solid #E8E8E8;
+  margin-top:15px;
+}
+
+.profileDialogAvatar {
+  display:flex;
+  flex-direction:column;
+  justify-content:center;
+  align-items:center;
+  height:150px;
+  width:150px;
+  border-radius:5px;
+  background:#F5F5F5;
+  overflow:hidden;
+}
+
+.profileDialogAvatarImg {
+  width:100%;
+  height:auto;
+  border-radius:5px;
+}

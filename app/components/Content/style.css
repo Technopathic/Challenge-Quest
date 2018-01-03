@@ -1,0 +1,76 @@
+/* Content Styles */
+
+.feedContainer {
+  width:100%;
+  border:1px solid #e8e8e8;
+  margin-bottom:15px;
+  background:#FFFFFF;
+}
+
+.feedHeader {
+  font-size:2em;
+  font-family:'Lato';
+  font-weight:200;
+  font-variant:small-caps;
+  color:#777777;
+  padding-left:10px;
+  padding-bottom:5px;
+}
+
+.feedList {
+  display:flex;
+  flex-direction:column;
+}
+
+.feedBlock {
+  min-height:100px;
+  display:flex;
+  flex-direction:row;
+  padding:10px;
+  border-top:1px solid #E8E8E8;
+  text-decoration:none;
+}
+
+.feedImage {
+  width:150px;
+  height:100px;
+}
+
+.feedInfo {
+  display:flex;
+  flex-direction:column;
+  padding-left:10px;
+  padding-right:10px;
+}
+
+.feedTitle {
+  font-family:'Lato';
+  font-size:1.5em;
+  font-weight:200;
+  color:#333333;
+}
+
+.feedContent {
+  font-family:'Lato';
+  font-weight:200;
+  color:#999999;
+  padding-top:5px;
+  padding-bottom:5px;
+}
+
+.feedTags {
+  display:flex;
+  flex-direction:row;
+  margin-top:5px
+}
+
+.tagBlock {
+  font-family:'Montserrat';
+  font-weight:600;
+  font-size:0.8em;
+  color:#999999;
+  padding:5px;
+  border:1px solid #e8e8e8;
+  background:#F4F4F4;
+  margin-right:10px;
+}
